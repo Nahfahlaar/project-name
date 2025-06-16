@@ -1,0 +1,71 @@
+export default function Testimonials() {
+    return (
+        <section
+            className="
+                mb-30
+                w-[90%]
+                mx-auto
+                md:w-[88%]
+                md:grid
+                md:grid-cols-2
+                lg:w-[80%]
+                lg:grid-cols-[3fr_1fr]
+                xl:grid-cols-[1fr_3fr_1fr]
+                xl:max-w-[1500px]
+                "
+        >
+            <h2
+                className="
+                    font-Inter
+                    text-xl
+                    font-bold
+                    mb-10
+                    md:text-3xl
+                    md:col-span-1
+                "
+            >
+                Testimomials
+            </h2>
+            <p
+                className="
+                    text-xl
+                    italic
+                    mb-6
+                    md:text-2xl
+                    md:col-span-2
+                    lg:col-span-1
+                    lg:row-start-2
+                    xl:col-start-2
+                    xl:row-start-1
+            "
+            >
+                "Absolutely loved. I found it to be very lucidly explained,
+                which helped me revise the basic modelling skills at a great
+                pace. The drawings and quotes were the cherry on top!"
+            </p>
+            <p
+                className="
+                    text-gray-400
+                    mb-10
+                    md:col-span-2
+                    xl:col-span-1
+                    xl:col-start-2
+                    xl:row-start-2
+                "
+            >
+                <b>Esha Puri</b>, Associate, Deutsche Bank
+            </p>
+            <img
+                className="
+                    md:col-start-2
+                    md:row-start-1
+                    md:ml-auto
+                    lg:row-start-2
+                    xl:col-start-3
+                    xl:row-start-1
+                    "
+                src="/Group.png"
+            />
+        </section>
+    );
+}

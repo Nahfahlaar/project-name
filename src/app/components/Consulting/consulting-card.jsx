@@ -1,0 +1,46 @@
+export default function ConsultingCard({ title, imageUrl, text }) {
+    return (
+        <div
+            className="
+            md:grid
+            md:grid-cols-2
+            md:items-center
+            md:gap-x-6
+        "
+        >
+            <img
+                className="
+                w-full
+                mb-8
+                rounded-[8px]
+                md:mb-0
+                "
+                src={imageUrl}
+            />
+            <div
+                className="
+                md:
+            "
+            >
+                <h4
+                    className="
+                    font-Inter
+                    text-xl
+                    font-bold
+                    mb-6
+                    md:mb-4
+                "
+                >
+                    {title}
+                </h4>
+                <p
+                    className="
+                    text-gray-400
+            "
+                >
+                    {text}
+                </p>
+            </div>
+        </div>
+    );
+}
