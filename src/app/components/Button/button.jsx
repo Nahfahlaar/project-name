@@ -1,8 +1,7 @@
-export default function Button({ title, imageUrl, text }) {
+export default function Button({ justify }) {
     return (
-        <div>
-            <button
-                className="
+        <button
+            className={`
                 bg-blue-600
                 text-white
                 border-none
@@ -12,10 +11,11 @@ export default function Button({ title, imageUrl, text }) {
                 font-Inter
                 md:w-[30%]
                 md:p-2
-                "
-            >
-                Learn More
-            </button>
-        </div>
+                justify
+                ${justify}
+                `}
+        >
+            Learn More
+        </button>
     );
 }

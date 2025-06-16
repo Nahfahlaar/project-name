@@ -6,6 +6,8 @@ export default function ConsultingCard({ title, imageUrl, text }) {
             md:grid-cols-2
             md:items-center
             md:gap-x-6
+            lg:grid-cols-1
+            lg:gap-y-8
         "
         >
             <img
@@ -17,11 +19,7 @@ export default function ConsultingCard({ title, imageUrl, text }) {
                 "
                 src={imageUrl}
             />
-            <div
-                className="
-                md:
-            "
-            >
+            <div>
                 <h4
                     className="
                     font-Inter

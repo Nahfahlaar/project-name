@@ -1,29 +1,31 @@
-export default function Hero() {
+import Button from '../Button/button';
+
+export default function WhatWeDo() {
     return (
-        <section
+        <div
             className="
                 w-full
                 mb-[81px]
                 lg:flex
-                lg:flex-row-reverse
                 lg:justify-between
                 lg:max-w-[90%]
-                lg:ml-auto 
+                lg:mr-auto 
                 lg:mb-[88px]
+                lg:gap-x-16
                 xl:max-w-[1708px]
                 xl:mb-[213px]
                 "
         >
             <div
                 className="
-                    mb-6
-                    bg-[url('/header-image-768.png')]
+                    mb-9
+                    bg-[url('/image-about.png')]
                     bg-cover
                     bg-center
                     bg-no-repeat
                     w-full
                     aspect-[16/9]
-                    lg:bg-[url('/header-image-1440.png')]
+                    lg:bg-[url('/about-for-1440.png')]
                     lg:mb-0"
             ></div>
             <div
@@ -37,7 +39,7 @@ export default function Hero() {
             >
                 <h1
                     className="
-                    text-2xl
+                    text-3xl
                     font-bold
                     mb-6
                     font-Inter
@@ -45,13 +47,21 @@ export default function Hero() {
                     lg:text-5xl
                     "
                 >
-                    Excel Models Built by Investors, for Investors
+                    What We Do
                 </h1>
-                <p className="text-gray-400 text-l md:text-2xl">
-                    Save time and win more deals with our products and
-                    consulting services.
+                <p className="text-gray-400 text-l mb-6 md:text-2xl">
+                    We create straightforward, sophisticated, and
+                    aesthetically-pleasing financial models designed for the
+                    multifamily investment and development community. Our firm
+                    also offers consulting services to multifamily investors and
+                    developers throughout the US. See our Consulting page to
+                    learn more.<br></br>
+                    <br></br> To us, building financial models is an exercise in
+                    problem solving, and we are glad to sweat the details so you
+                    don’t have to.
                 </p>
+                <Button />
             </div>
-        </section>
+        </div>
     );
 }

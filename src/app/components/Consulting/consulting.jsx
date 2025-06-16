@@ -30,10 +30,8 @@ export default function Consulting() {
                 grid-cols-1
                 gap-y-16
                 mb-12
-                lg:grid
-                lg:grid-cols-2
+                lg:grid-cols-3
                 lg:gap-x-8
-                lg:gap-y-20
             "
             >
                 <li>
@@ -64,15 +62,18 @@ export default function Consulting() {
                     />
                 </li>
             </ul>
-            <div className="border-t-1 mb-12 w-[100%] border-gray-400"></div>
-            <div>
-                <p className="mb-6">
-                    At Multifamily Modeling, our aim is to provide our clients
-                    with high quality and meticulously honed consulting services
-                    to help them get to the right answer.
-                </p>
+            <div className="lg:grid lg:grid-cols-2">
+                <div className="border-t-1 mb-12 w-[100%] border-gray-400 lg:col-span-2"></div>
+                <div>
+                    <p className="mb-6 lg:mb-0">
+                        At Multifamily Modeling, our aim is to provide our
+                        clients with high quality and meticulously honed
+                        consulting services to help them get to the right
+                        answer.
+                    </p>
+                </div>
+                <Button justify="lg:justify-self-end" />
             </div>
-            <Button />
         </div>
     );
 }

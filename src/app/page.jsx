@@ -3,6 +3,7 @@ import Header from './components/Header/header';
 import Hero from './components/Hero/hero';
 import Models from './components/Models/models';
 import Testimonials from './components/Testimonials/testimonials';
+import WhatWeDo from './components/WhatWeDo/what-we-do';
 
 export const metadata = {
     title: 'ProjectName',
@@ -16,6 +17,7 @@ export default function Home() {
             <Testimonials />
             <Models />
             <Consulting />
+            <WhatWeDo />
         </div>
     );
 }
