@@ -1,6 +1,11 @@
 import Button from '../Button/button';
 
-export default function ModelsCard({ title, imageUrl, text }) {
+export default function ModelsCard({
+    title,
+    imageUrl,
+    text,
+    showButton = true,
+}) {
     return (
         <div>
             <img
@@ -21,15 +26,10 @@ export default function ModelsCard({ title, imageUrl, text }) {
             >
                 {title}
             </h4>
-            <p
-                className="
-                    mb-6
-                    text-gray-400
-            "
-            >
+            <p className={`text-gray-400 ${showButton ? 'mb-6' : ''}`}>
                 {text}
             </p>
-            <Button />
+            {showButton && <Button />}
         </div>
     );
 }

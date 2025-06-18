@@ -55,7 +55,7 @@ export default function Models() {
                 </li>
                 <li>
                     <ModelsCard
-                        imageUrl="image3.png"
+                        imageUrl="/image3.png"
                         title="Condo Development Model"
                         text="For the ground-up development of a condominium
                             building or complex. Featuring a robust development
@@ -65,7 +65,7 @@ export default function Models() {
                 </li>
                 <li>
                     <ModelsCard
-                        imageUrl="image4.png"
+                        imageUrl="/image4.png"
                         title="Apartment Development Model"
                         text="Our flagship development product featuring
                             everything from a Back-of-the-Envelope analysis

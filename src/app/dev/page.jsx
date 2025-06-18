@@ -7,11 +7,12 @@ import Header from '../components/Header/header';
 import Hero from '../components/Hero/hero';
 import ModelsCard from '../components/Models/models-card';
 import Models from '../components/Models/models';
+import LogoFooter from '../components/Footer/logo-footer';
 
 export default function DevPage() {
     return (
         <div className="flex items-center justify-center h-screen bg-gray-50">
-            <Models />
+            <LogoFooter />
         </div>
     );
 }

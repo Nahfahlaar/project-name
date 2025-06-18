@@ -21,10 +21,11 @@ export default function WhatWeDo() {
                     mb-9
                     bg-[url('/image-about.png')]
                     bg-cover
-                    bg-center
                     bg-no-repeat
                     w-full
                     aspect-[16/9]
+                    lg:bg-contain
+                    lg:aspect-[16/12]
                     lg:bg-[url('/about-for-1440.png')]
                     lg:mb-0"
             ></div>

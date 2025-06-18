@@ -1,3 +1,4 @@
+import Articles from './components/Articles/articles';
 import Consulting from './components/Consulting/consulting';
 import Header from './components/Header/header';
 import Hero from './components/Hero/hero';
@@ -18,6 +19,7 @@ export default function Home() {
             <Models />
             <Consulting />
             <WhatWeDo />
+            <Articles />
         </div>
     );
 }

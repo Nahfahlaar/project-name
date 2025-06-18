@@ -19,10 +19,12 @@ export default function Hero() {
                     mb-6
                     bg-[url('/header-image-768.png')]
                     bg-cover
-                    bg-center
                     bg-no-repeat
                     w-full
                     aspect-[16/9]
+                    lg:bg-contain
+                    lg:bg-right
+                    lg:aspect-[16/15]
                     lg:bg-[url('/header-image-1440.png')]
                     lg:mb-0"
             ></div>
