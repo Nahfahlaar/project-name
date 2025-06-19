@@ -40,3 +40,15 @@ body {
     --breakpoint-lg: 1440px;
     --breakpoint-xl: 1920px;
 }
+
+@layer utilities {
+    .bg-darkblue {
+        background-color: #0e0f21;
+    }
+    .text-darkblue {
+        color: #0e0f21;
+    }
+    .border-darkblue {
+        border-color: #0e0f21;
+    }
+}

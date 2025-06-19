@@ -1,6 +1,13 @@
 export default function LogoFooter() {
     return (
-        <a href="#" className="flex items-center gap-2">
+        <a
+            href="#"
+            className="
+                flex
+                items-center
+                gap-2
+                "
+        >
             <svg
                 width="40"
                 height="40"

@@ -1,5 +1,6 @@
 import Articles from './components/Articles/articles';
 import Consulting from './components/Consulting/consulting';
+import Footer from './components/Footer/footer';
 import Header from './components/Header/header';
 import Hero from './components/Hero/hero';
 import Models from './components/Models/models';
@@ -20,6 +21,7 @@ export default function Home() {
             <Consulting />
             <WhatWeDo />
             <Articles />
+            <Footer />
         </div>
     );
 }
