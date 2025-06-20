@@ -22,7 +22,6 @@ export default function HeaderNav() {
             gap-[16px]
             flex-col
             md:flex-row
-            
             "
             >
                 <li>

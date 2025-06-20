@@ -1,5 +1,6 @@
 import FooterNav from './footer-nav';
 import LogoFooter from './logo-footer';
+import ContactInformation from './сontact-information';
 
 export default function Footer() {
     return (
@@ -12,10 +13,13 @@ export default function Footer() {
                 pb-14
                 grid
                 gap-y-10
+                md:grid-cols-[1fr_3fr]
+                md:gap-y-0
                 "
             >
                 <LogoFooter />
                 <FooterNav />
+                <ContactInformation />
             </div>
         </footer>
     );

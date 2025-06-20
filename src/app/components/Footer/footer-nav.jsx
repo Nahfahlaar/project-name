@@ -8,7 +8,7 @@ export default function FooterNav() {
                 grid-cols-3
                 text-[12px]
                 font-Inter
-                gap-y-5
+                md:flex
                 "
             >
                 <li>
